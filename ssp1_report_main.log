@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (MiKTeX 2.9.7000 64-bit) (preloaded format=xelatex 2019.4.1)  4 APR 2019 12:06
+This is XeTeX, Version 3.14159265-2.6-0.999991 (MiKTeX 2.9.7000 64-bit) (preloaded format=xelatex 2019.4.1)  4 APR 2019 18:37
 entering extended mode
 **./ssp1_report_main.tex
 (ssp1_report_main.tex
@@ -966,19 +966,27 @@ Class scrreprt Warning: \float@addtolists detected!
 (scrreprt)              a package that still implements the
 (scrreprt)              deprecated \float@addtolist interface .
 
-File: img/latex_karo.png Graphic file (type bmp)
-<img/latex_karo.png>
-)
+File: img/latex_karo_bl.png Graphic file (type bmp)
+<img/latex_karo_bl.png>
 File: img/HAW_logo_black.png Graphic file (type bmp)
 <img/HAW_logo_black.png>
 
-
-LaTeX Warning: Reference `LastPage' on page 3 undefined on input line 122.
+LaTeX Warning: Reference `LastPage' on page 3 undefined on input line 7.
 
 [3
 
 
 ]
+File: img/latex_karo_bl_fullsize.png Graphic file (type bmp)
+<img/latex_karo_bl_fullsize.png>
+)
+File: img/HAW_logo_black.png Graphic file (type bmp)
+<img/HAW_logo_black.png>
+
+
+LaTeX Warning: Reference `LastPage' on page 4 undefined on input line 122.
+
+[4]
 \openout2 = `001_chapter_name.aux'.
 
  (001_chapter_name.tex
@@ -986,9 +994,9 @@ chapter 2.
 File: img/HAW_logo_black.png Graphic file (type bmp)
 <img/HAW_logo_black.png>
 
-LaTeX Warning: Reference `LastPage' on page 4 undefined on input line 24.
+LaTeX Warning: Reference `LastPage' on page 5 undefined on input line 24.
 
-[4
+[5
 
 
 
@@ -997,9 +1005,9 @@ File: img/HAW_logo_black.png Graphic file (type bmp)
 <img/HAW_logo_black.png>
 
 
-LaTeX Warning: Reference `LastPage' on page 5 undefined on input line 123.
+LaTeX Warning: Reference `LastPage' on page 6 undefined on input line 123.
 
-[5]
+[6]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 127.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 127.
  (ssp1_report_main.aux (000_chapter_vorbereitung.aux) (001_chapter_name.aux))
@@ -1014,12 +1022,12 @@ LaTeX Warning: There were undefined references.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 127.
  ) 
 Here is how much of TeX's memory you used:
- 25176 strings out of 427748
- 472711 string characters out of 3145689
+ 25180 strings out of 427748
+ 472852 string characters out of 3145689
  902899 words of memory out of 3000000
- 29032 multiletter control sequences out of 15000+200000
+ 29035 multiletter control sequences out of 15000+200000
  536300 words of font info for 61 fonts, out of 3000000 for 9000
  1328 hyphenation exceptions out of 8191
  47i,12n,79p,9097b,1021s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on ssp1_report_main.pdf (5 pages).
+Output written on ssp1_report_main.pdf (6 pages).
