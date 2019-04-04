@@ -1,0 +1,127 @@
+% 20190401 V0.99 
+% USE XELATEX: Tools->Befehle->XELATEX cause of font -> F2
+
+\documentclass[12pt]{scrreprt}
+
+\usepackage{amsmath}    % need for subequations
+\usepackage{graphicx}   % need for figures
+\usepackage{verbatim}   % useful for program listings
+\usepackage{color}      % use if color is used in text
+\usepackage{subfigure}  % use for side-by-side figures
+\usepackage{hyperref}   % use for hypertext links, including those to external documents and URLs
+\usepackage[german]{babel}
+%\usepackage[utf8]{inputenc}
+\usepackage{fancyhdr}
+\usepackage{fontspec}
+\setmainfont{Palatino Linotype}
+\setsansfont{Palatino Linotype}
+%\setmonofont{Palatino Linotype}
+
+\usepackage[
+headheight=62pt,
+%textheight=600pt,
+textwidth=470pt,
+%footskip=30pt,
+paperwidth=597pt,
+footskip=40pt,
+bottom=80pt,
+% other options
+]{geometry}
+
+
+%Definieren uns farbigen Quellcode
+\usepackage{color}
+\definecolor{dkgreen}{rgb}{0,0.6,0}
+\definecolor{gray}{rgb}{0.5,0.5,0.5}
+\definecolor{mauve}{rgb}{0.58,0,0.82}
+
+%Damit wir Quellcode nutzen können.
+\usepackage{listings}
+\lstset{numbers=left,
+	numberstyle=\scriptsize,
+	numbersep=8pt,
+	breaklines=true,
+	showstringspaces=false,
+	frame=0,
+	xleftmargin=15pt,
+	xrightmargin=5pt,
+	basicstyle=\ttfamily\scriptsize,
+	stepnumber=1,
+	keywordstyle=\color{blue},          % keyword style
+	commentstyle=\color{dkgreen},       % comment style
+	stringstyle=\color{mauve}         % string literal style
+}
+
+
+%Sprache Festelegen
+\lstset{language=C}
+
+\pagestyle{fancy}
+
+\fancyhf{}
+\rhead{\includegraphics[height=1.5cm]{img/HAW_logo_black.png}}
+\chead{P1 - Signale und Systeme 1}
+\lhead{F. Lanz, M. Müller}
+
+\cfoot{\thepage \, / \pageref{LastPage}}
+\renewcommand{\footrulewidth}{0.4pt}
+\renewcommand{\headrulewidth}{0.4pt}
+
+
+
+\begin{document}
+
+\begin{titlepage}
+	
+	
+	\centering
+	\begin{figure}
+		\vspace*{1cm}	
+	\end{figure}
+	
+	
+	{\huge\bfseries P1 Frequenzgang und Fourier-Reihe\par}
+	
+	\vspace{1cm}
+	
+	{\LARGE Praktikum Signale und Systeme 1\par}
+	
+	\vspace{1.5cm}
+	
+	\includegraphics[width=7cm]{img/HAW_logo_black.png}\par
+	\vspace{1.5cm}
+	
+	
+	{\large \bfseries Finn Lanz \hspace{0.8cm} Malte Müller\par}
+	
+	\vspace{1.5cm}
+
+	{\large \today\par}
+
+	\vspace{3cm}
+
+	\begin{tabular}{lr}
+		\rule[-1ex]{0pt}{2.5ex} \textbf{Name} \hspace{2cm} & \textbf{Funktion }\\ 
+		\rule[-1ex]{0pt}{2.5ex} Malte Müller & Protokollführer \\ 
+		\rule[-1ex]{0pt}{2.5ex} Finn Lanz & Teilnehmer \\ 	
+	\end{tabular} 
+
+	\vfill
+	{SS1P/2 - E-B3 - VLM} 
+	\vspace{2cm}
+	
+
+		
+	
+\end{titlepage}
+
+\tableofcontents
+\thispagestyle{fancy}
+
+
+\include{000_chapter_vorbereitung}
+\include{001_chapter_name}
+% include sections like this
+
+
+\end{document}
