@@ -17,13 +17,12 @@ uy1 = U * (1-exp(-t1/tau)); % Ladefunktion
 t2 = tau:dt:(tau+5*tau);    % Entladezeit
 uy2 = U * (1-exp(-tau/tau)) * exp(-(t2-tau)/tau);   % Entladefunktion
 
-uy = [uy1, uy2];    % Zusammensetzen der Lade- und Entladewerte
+uy = [uy1, uy2];
 t = [t1, t2];
 
-plot(t, uy); grid on; grid minor; %axis tight; 
+plot(t, uy); grid on; %axis tight;
 
-% Beschriftung des Graphen
-
+% Beschriftung des Plots
 title('Ausgangsspannung u_y(t)');
 xlabel('t');
 ylabel('u_y(t)');

@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (MiKTeX 2.9.7000 64-bit) (preloaded format=xelatex 2019.4.1)  4 APR 2019 18:37
+This is XeTeX, Version 3.14159265-2.6-0.999991 (MiKTeX 2.9.7000 64-bit) (preloaded format=xelatex 2019.4.1)  5 APR 2019 22:00
 entering extended mode
 **./ssp1_report_main.tex
 (ssp1_report_main.tex
@@ -760,12 +760,7 @@ Package: listings 2019/02/27 1.8b (Carsten Heinz)
 ("C:\Users\Malte Müller\AppData\Local\Programs\MiKTeX 2.9\tex/latex/listings\ls
 tlang1.sty"
 File: lstlang1.sty 2019/02/27 1.8b listings language file
-)
-("C:\Users\Malte Müller\AppData\Local\Programs\MiKTeX 2.9\tex/latex/listings\ls
-tmisc.sty"
-File: lstmisc.sty 2019/02/27 1.8b (Carsten Heinz)
-) (ssp1_report_main.aux (000_chapter_vorbereitung.aux)
-(001_chapter_name.aux))
+) (ssp1_report_main.aux (000_vorbereitung.aux) (001_praktikum.aux))
 \openout1 = `ssp1_report_main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 72.
@@ -947,9 +942,9 @@ LaTeX Warning: Reference `LastPage' on page 2 undefined on input line 122.
 [2
 
 ]
-\openout2 = `000_chapter_vorbereitung.aux'.
+\openout2 = `000_vorbereitung.aux'.
 
- (000_chapter_vorbereitung.tex
+ (000_vorbereitung.tex
 chapter 1.
 
 Class scrreprt Warning: \float@addtolists detected!
@@ -987,30 +982,27 @@ File: img/HAW_logo_black.png Graphic file (type bmp)
 LaTeX Warning: Reference `LastPage' on page 4 undefined on input line 122.
 
 [4]
-\openout2 = `001_chapter_name.aux'.
+\openout2 = `001_praktikum.aux'.
 
- (001_chapter_name.tex
+ (001_praktikum.tex
 chapter 2.
+File: img/aufgabe1.png Graphic file (type bmp)
+<img/aufgabe1.png>
+)
 File: img/HAW_logo_black.png Graphic file (type bmp)
 <img/HAW_logo_black.png>
 
-LaTeX Warning: Reference `LastPage' on page 5 undefined on input line 24.
+
+LaTeX Warning: Reference `LastPage' on page 5 undefined on input line 123.
 
 [5
 
 
 
-])
-File: img/HAW_logo_black.png Graphic file (type bmp)
-<img/HAW_logo_black.png>
-
-
-LaTeX Warning: Reference `LastPage' on page 6 undefined on input line 123.
-
-[6]
+]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 127.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 127.
- (ssp1_report_main.aux (000_chapter_vorbereitung.aux) (001_chapter_name.aux))
+ (ssp1_report_main.aux (000_vorbereitung.aux) (001_praktikum.aux))
 Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 127.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 127.
 Package rerunfilecheck Info: File `ssp1_report_main.out' has not changed.
@@ -1022,12 +1014,12 @@ LaTeX Warning: There were undefined references.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 127.
  ) 
 Here is how much of TeX's memory you used:
- 25180 strings out of 427748
- 472852 string characters out of 3145689
- 902899 words of memory out of 3000000
- 29035 multiletter control sequences out of 15000+200000
- 536300 words of font info for 61 fonts, out of 3000000 for 9000
+ 25656 strings out of 427748
+ 478070 string characters out of 3145689
+ 926607 words of memory out of 3000000
+ 29511 multiletter control sequences out of 15000+200000
+ 536308 words of font info for 62 fonts, out of 3000000 for 9000
  1328 hyphenation exceptions out of 8191
- 47i,12n,79p,9097b,1021s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 47i,12n,79p,9097b,1550s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on ssp1_report_main.pdf (6 pages).
+Output written on ssp1_report_main.pdf (5 pages).
