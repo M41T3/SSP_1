@@ -28,7 +28,7 @@ title('Ausgangsspannung u_y(t)');
 xlabel('t');
 ylabel('u_y(t)');
 
-%% Aufgabe 2 (c)FERK
+%% Aufgabe 2
 
 dt = tau/100;
 % Berechnung
@@ -59,7 +59,7 @@ legend('m = 1', 'm = 3', 'm = 10');
 xlabel('t');
 ylabel('uy');
 
-%% Aufgabe 3 (c)FERK
+%% Aufgabe 3
 
 % Einstellen der Parameter
 tau = tau;
@@ -88,7 +88,7 @@ end
 
 title('Approximierte Ausgangsspannung uy(t)');
 xlabel('t');
-ylabel('uy');
+ylabel('u_y');
 legend('K = 2', 'K = 8', 'K = 40', 'K = 100');
 
 hold off;
