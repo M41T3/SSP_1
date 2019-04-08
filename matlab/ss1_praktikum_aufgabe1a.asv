@@ -59,10 +59,11 @@ legend('m = 1', 'm = 3', 'm = 10');
 xlabel('t');
 ylabel('u_y(t)');
 
-grid on; grid minor; axis tight; % Optimierung Graph
+grid on; grid minor; axis tight; % Optimierung Grap
 %% Aufgabe 3
 
-T = 5;  % Periodendauer
+% Einstellen der Parameter
+T = 5;
 tau = 1;
 t1 = linspace(0, tau, 1000);
 t2 = linspace(tau, 4*tau, 4000);
@@ -70,7 +71,11 @@ F = 1/T;
 t = [t1, t2];
 dt = tau/100;
 
-% Berechnung der Fourier-Reihe
+% figure;
+% Approximation
+
+
+
 for K = 1:40
     uyt = 0;
 
@@ -82,14 +87,14 @@ for K = 1:40
     end
     if (K == 2 || K == 12 || K == 40)
         plot(t, uyt);
-        legend(strcat('K = ', num2str(K))); % Ausgabe des k-ten Durchlauf
         hold on;
     end
-    %pause(0.2);
+    legend(strcat('K = ', num2str(K)));
+    pause(0.2);
 end
 % Beschriftung des Plots
 
-title('Fourier-Reihe u_y(t) mit K_{max} = 40' );
+title('Approximierte Ausgangsspannung u_y(t) mit K_{max} = 40' );
 xlabel('t');
 ylabel('u_y(t)');
 legend('K = 2', 'K = 12', 'K = 40');
