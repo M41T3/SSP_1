@@ -50,7 +50,7 @@ for m = 1:10
     end
     
     %legend(strcat('m = ', num2str(m)));
-    %pause;
+    pause(1.0);
 end
 
 % Beschriftung des Plots
@@ -64,25 +64,27 @@ ylabel('uy');
 % Einstellen der Parameter
 tau = tau;
 t1 = linspace(0, tau, 1000);
-t2 = linspace(tau, T, 1000);
+t2 = linspace(tau, 4*T, 4000);
 F = 1/T;
-t = [t1 t2];
-figure;
+t = [t1, t2];
+% figure;
 % Approximation
 for K = 1:100
     uyt = 0;
+
     for k = -K:K
         Hkf = 1 / (1 + 1i*2*pi*k*F*tau);
-        Xk = exp(-1i*2*pi*k*F*(tau/2)) * (tau/T) * sinc(pi*k*F*tau);
+        Xk = exp(-1i*2*pi*k*F*(tau/2)) * (tau/T) * sinc(k*F*tau);
+        % Xk = (U/T) * ((exp(-1i*2*pi*k*F*tau) - 1)/(-1i*2*pi*k*F));
         Yk = Hkf * Xk;
         uyt = uyt + Yk * exp(1i*2*pi*k*F*t);
     end
     if (K == 2 || K == 8 || K == 40 || K == 100)
-        plot(t, real(uyt));
+        plot(t, uyt);
         hold on;
     end
     %legend(strcat('K =', num2str(K)));
-    %pause;
+    %pause(0.5);
 end
 % Beschriftung des Plots
 
