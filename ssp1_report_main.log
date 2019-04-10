@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (MiKTeX 2.9.7000 64-bit) (preloaded format=xelatex 2019.4.1)  10 APR 2019 13:26
+This is XeTeX, Version 3.14159265-2.6-0.999991 (MiKTeX 2.9.7000 64-bit) (preloaded format=xelatex 2019.4.1)  10 APR 2019 13:28
 entering extended mode
 **./ssp1_report_main.tex
 (ssp1_report_main.tex
@@ -1017,10 +1017,10 @@ Package rerunfilecheck Info: File `ssp1_report_main.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 127.
  ) 
 Here is how much of TeX's memory you used:
- 25680 strings out of 427748
- 478252 string characters out of 3145689
+ 25684 strings out of 427748
+ 478348 string characters out of 3145689
  965607 words of memory out of 3000000
- 29532 multiletter control sequences out of 15000+200000
+ 29536 multiletter control sequences out of 15000+200000
  536308 words of font info for 62 fonts, out of 3000000 for 9000
  1328 hyphenation exceptions out of 8191
  47i,13n,79p,9097b,1713s stack positions out of 5000i,500n,10000p,200000b,50000s
