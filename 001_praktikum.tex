@@ -4,7 +4,7 @@
 \section{Theoretische Lösung aus V1 (A1)}
 
 \textbf{Aufgabenstellung:\\}
-Schreiben Sie ein Programm, das die theoretische Lösung aus V1 für 1 t = T zeigt, d.h. die Ausgangsspannung $u_y(t)$ t . Stellen Sie das Bild für 0 <= t <= T + 5$\tau$ dar. Verwenden Sie dazu den "plot" - Befehl. Beschriften Sie den Plot mit Hilfe von \textbf{title} und \textbf{xlabel}.
+Schreiben Sie ein Programm, das die theoretische Lösung aus V1 für t = T zeigt, d.h. die Ausgangsspannung $u_y(t)$. Stellen Sie das Bild für 0 <= t <= T + 5$\tau$ dar. Verwenden Sie dazu den \textbf{plot} - Befehl. Beschriften Sie den Plot mit Hilfe von \textbf{title} und \textbf{xlabel}.
 
 \vspace{1.5cm}
 
@@ -42,12 +42,14 @@ Ausgegeben wird folgende Grafik:
 \includegraphics[width=300pt]{img/aufgabe1.png}
 \end{center}
 
-\vspace{0.7cm}
+Zu sehen ist der Lade- und Endladevorgang der RC-Schaltung. Der Entladevorgang ist nach ungefähr $5/tau$ abgeschlossen.
+
+\vspace{0.5cm}
 
 \section{Erweiterung der ersten Aufgabe (A2)}
 
 \textbf{Aufgabenstellung:\\}
-Nun soll 1 t = m*T/5 mit m = 1,…,10 gelten. Erweitern Sie das Skript um eine Schleife über m, die mit \textbf{pause} zum Ansehen angehalten wird. Beschriften Sie den Plot mit Hilfe von \textbf{title}, \textbf{xlabel} und \textbf{num2str}. Speichern Sie die Bilder für m = 1,3, und 10 ab.
+Nun soll t = m*T/5 mit m = 1,…,10 gelten. Erweitern Sie das Skript um eine Schleife über m, die mit \textbf{pause} zum Ansehen angehalten wird. Beschriften Sie den Plot mit Hilfe von \textbf{title}, \textbf{xlabel} und \textbf{num2str}. Speichern Sie die Bilder für m = 1,3, und 10 ab.
 
 \vspace{1.5cm}
 
@@ -103,9 +105,9 @@ Je größer m ist, desto langsamer steigt die Spannung am Kondensator. Somit kan
 \section{Approximation der Lade- und Entladekurve (A3)}
 
 \textbf{Aufgabenstellung:\\}
-Es gilt wieder 1 t = T . Approximieren Sie $u_y(t)$ , indem Sie die Fourierreihe mit den Koeffizienten k Y mit −K£ k £K berechnen. Schreiben Sie eine Schleife über K und sehen Sie sich die Bilder für K = 1,…, 40 an. Speichern Sie sinnvoll 3 Bilder ab. Beschriften Sie die Bilder analog zu A2.
+Es gilt wieder t = T . Approximieren Sie $u_y(t)$, indem Sie die Fourierreihe mit den Koeffizienten $Y_k$ mit −K <= k <= K berechnen. Schreiben Sie eine Schleife über K und sehen Sie sich die Bilder für K = 1,…, 40 an. Speichern Sie sinnvoll 3 Bilder ab. Beschriften Sie die Bilder analog zu A2.
 
-\vspace{0.5cm}
+\vspace{0.7cm}
 
 \begin{lstlisting}
 %% Aufgabe 3
@@ -154,4 +156,4 @@ Ausgegeben wird folgende Grafik:
 	\includegraphics[width=300pt]{img/aufgabe3.png}
 \end{center}
 
-Wie zu erwarten nähert sich die approximierte Funktion mit steigenden K der theoretischen Funktion an. Bei K = 40 ist kaum noch ein unterschied zu erkennen.
+Wie erwartet nähert sich die approximierte Funktion mit steigenden K der theoretischen Funktion an. Bei K = 40 ist kaum noch ein Unterschied zu erkennen.
