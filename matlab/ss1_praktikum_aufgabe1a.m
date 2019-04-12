@@ -1,4 +1,4 @@
-% Malte Mueller 05.04.2019
+% Malte Mueller Finn Lanz 10.04.2019
 
 %% Aufgabe 1
 
